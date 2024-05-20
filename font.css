@@ -1,0 +1,21 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: "Stretch";
+  src: url("/fonts/StretchPro.otf");
+}
+@font-face {
+  font-family: "Kiona";
+  src: url("/fonts/Kiona-Regular.ttf");
+}
+@font-face {
+  font-family: "Garet";
+  src: url("/fonts/Garet-Book.ttf");
+}
+@font-face {
+  font-family: Azonix;
+  src: url("/fonts/Azonix.otf");
+}
+@font-face {
+  font-family: Serenata;
+  src: url("/fonts/Serenata Vantages Regular.ttf");
+}

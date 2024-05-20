@@ -1,0 +1,121 @@
+@import url("font.css");
+ @import url('/node_modules/@flaticon/flaticon-uicons/css/brands/all.css');
+ @import url('/node_modules/@flaticon/flaticon-uicons/css/regular/all.css');
+ @import url('/node_modules/@flaticon/flaticon-uicons/css/solid/all.css');
+ 
+body {
+    background: #eee;
+    color: #171717;
+    font-family: Outfit;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  padding: .8rem .9rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #eee;
+  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchbox {
+  float: right;
+}
+.nav-title {
+  font-family: Kiona;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.nav-title::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1.5px;
+  background: #151515;
+  transition: .1s;
+}
+.nav-title:hover::after {
+  width: 100%;
+}
+.top-page {
+  height: 13.5cm;
+  padding: 2cm 1cm 0;
+  color: #151515;
+  margin-bottom: .5cm;
+}
+.others > div{
+  display: inline-block;
+  margin: 0 .3rem;
+}
+.buymecoffee {
+  font-size: 1.3rem;
+  transition: .2s;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  padding: 0 .35rem .25rem;
+}
+.buymecoffee:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.buymecoffee i {
+  position: relative;
+  top: 5px;
+  font-family: sans-serif;
+}
+
+.info > h3 {
+  font-size: 1.3rem;
+  font-family: Azonix;
+  letter-spacing: 2px;
+  margin-bottom: .4rem;
+}
+.check-project {
+  margin-top: 2rem;
+  padding:  .3rem 2rem;
+  width: 100%;
+  border-radius: .2rem;
+  border: 1px solid;
+  font-family: "Garet";
+  transition: .2s;
+}
+.check-project:hover {
+  background: #D4D4D4;
+}
+.main {
+  padding: 1cm 1rem;
+}
+.surprise{
+  text-align: center;
+}
+.surprise-button {
+ display: block;
+ margin: .5cm auto;
+ width: 100%;
+ padding: .3rem;
+ font-family: Garet;
+}
+.hiddenbox {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 9cm;
+  height: 9cm;
+  background: #E6E6E6;
+  border-radius: .6rem;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 3.3rem 0;
+  transition: 2s;
+}
+.hiddenbox > img {
+  display: block;
+  margin: auto auto;
+}

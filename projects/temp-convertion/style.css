@@ -1,0 +1,31 @@
+@import url('font.css');
+
+body {
+  font-family: Outfit;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 19rem;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  padding: 6rem 1rem;
+  text-align: center;
+}
+#inputNum {
+  padding: .6rem .4rem;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 6cm;
+  margin-bottom: 20px;
+}
+button {
+  border: 1px solid;
+  border-radius: 10px;
+  font-family: Outfit;
+  padding: .6rem 0;
+  width: 5cm;
+  margin-top: .9rem;
+}

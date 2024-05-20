@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Temp Converter</h1>
+    <input type="number" id="inputNum" placeholder="1">
+    <br>
+    <input type="radio" name="temp" id="celciusToFahreinheit" checked>
+    <label for="celciusToFahreinheit">Celcius to Fahreinheit</label>
+    <br>
+    <input type="radio" name="temp" id="fahrenheitToCelcius">
+    <label for="fahrenheitToCelcius">Fahreinheit to Celcius</label>
+    <br>
+    <button onclick="convertTemp()">Convert</button>
+    <h2 id="result">Result:</h2>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
